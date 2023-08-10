@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DataReverse.Rootobject">
+    <Position X="11.5" Y="1" Width="1.5" />
+    <AssociationLine Name="customers" Type="DataReverse.Customer" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.5" Y="1.25" />
+        <Point X="9.75" Y="1.25" />
+        <Point X="9.75" Y="2.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Invoice" Type="DataReverse.Invoice" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.25" Y="1.868" />
+        <Point X="12.25" Y="4.875" />
+        <Point X="9.75" Y="4.875" />
+        <Point X="9.75" Y="5.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Order" Type="DataReverse.Order" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.5" Y="1.625" />
+        <Point X="11" Y="1.625" />
+        <Point X="11" Y="3.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="products" Type="DataReverse.Product" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13" Y="1.438" />
+        <Point X="14.25" Y="1.438" />
+        <Point X="14.25" Y="3.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAEAAAABAAAAAAAAAAAQAAAAAAAAAAAAAAAABAAAAQA=</HashCode>
+      <FileName>DataReverse.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="customers" />
+      <Property Name="Invoice" />
+      <Property Name="Order" />
+      <Property Name="products" />
+      <Property Name="shipment" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DataReverse.Customer" Collapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAIAAAQAABgAAAAGAAKAAAAAgAWIAAAAAAAAAA=</HashCode>
+      <FileName>DataReverse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataReverse.Product" Collapsed="true">
+    <Position X="13.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAEAAACAAAAAAAAAgA=</HashCode>
+      <FileName>DataReverse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataReverse.Order" Collapsed="true">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAQgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataReverse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataReverse.Item" Collapsed="true">
+    <Position X="13.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAgA=</HashCode>
+      <FileName>DataReverse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataReverse.Invoice" Collapsed="true">
+    <Position X="9" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABAAAAAAAAAAAAAAAAAAAAAAAAAEAAAQAACAA=</HashCode>
+      <FileName>DataReverse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataReverse.Order1" Collapsed="true">
+    <Position X="7.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>DataReverse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataReverse.Shipment" Collapsed="true">
+    <Position X="11.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCAAAAAAA=</HashCode>
+      <FileName>DataReverse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
